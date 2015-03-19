@@ -2,7 +2,7 @@
 %global httpdconfdir /etc/openshift/cart.conf.d/httpd/python
 
 Name:          openshift-origin-cartridge-python
-Version: 1.32.1
+Version: 1.32.2
 Release:       1%{?dist}
 Summary:       Python cartridge
 Group:         Development/Languages
@@ -97,6 +97,9 @@ Python cartridge for OpenShift. (Cartridge Format V2)
 %exclude %{cartridgedir}/usr/versions/*/template/*.pyo
 
 %changelog
+* Thu Mar 19 2015 aweiteka <aweiteka@redhat.com> 1.32.2-1
+- 
+
 * Thu Mar 19 2015 Adam Miller <admiller@redhat.com> 1.32.1-1
 - bump_minor_versions for sprint 60 (admiller@redhat.com)
 
