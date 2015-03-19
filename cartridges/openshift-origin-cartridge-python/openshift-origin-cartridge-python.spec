@@ -2,7 +2,7 @@
 %global httpdconfdir /etc/openshift/cart.conf.d/httpd/python
 
 Name:          openshift-origin-cartridge-python
-Version: 1.32.2
+Version: 1.32.3
 Release:       1%{?dist}
 Summary:       Python cartridge
 Group:         Development/Languages
@@ -98,6 +98,9 @@ Python cartridge for OpenShift. (Cartridge Format V2)
 %exclude %{cartridgedir}/usr/versions/*/template/*.pyo
 
 %changelog
+* Thu Mar 19 2015 aweiteka <aweiteka@redhat.com> 1.32.3-1
+- add m2crypto (aweiteka@redhat.com)
+
 * Thu Mar 19 2015 aweiteka <aweiteka@redhat.com> 1.32.2-1
 - 
 
