@@ -2,6 +2,7 @@
 Name: python
 Cartridge-Short-Name: PYTHON
 Display-Name: Python 2.6
+Source-Url: https://github.com/aweiteka/origin-server.git
 Description: ! 'Python is a general-purpose, high-level programming language whose
   design philosophy emphasizes code readability. Popular development frameworks include:
   Django, Bottle, Pylons, Zope and TurboGears.'
